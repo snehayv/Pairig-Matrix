@@ -1,0 +1,4 @@
+mockDomain(User)
+
+        controller.params.userName = 'Sneha'
+        controller.save()

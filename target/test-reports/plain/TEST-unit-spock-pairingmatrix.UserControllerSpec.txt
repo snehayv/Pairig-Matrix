@@ -1,5 +1,5 @@
 Testsuite: pairingmatrix.UserControllerSpec
-Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.478 sec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.722 sec
 ------------- Standard Output ---------------
 --Output from should save the user when save button is clicked--
 --Output from should display error message when the user name is empty and save is clicked--
@@ -11,6 +11,6 @@ Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.478 sec
 --Output from should display error message when the user name saved already exists --
 ------------- ---------------- ---------------
 
-Testcase: should save the user when save button is clicked took 1.432 sec
-Testcase: should display error message when the user name is empty and save is clicked took 0.012 sec
-Testcase: should display error message when the user name saved already exists  took 0.016 sec
+Testcase: should save the user when save button is clicked took 1.651 sec
+Testcase: should display error message when the user name is empty and save is clicked took 0.011 sec
+Testcase: should display error message when the user name saved already exists  took 0.029 sec

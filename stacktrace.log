@@ -1,0 +1,214 @@
+2011-09-12 00:37:59,399 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:11)
+2011-09-12 00:37:59,406 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:11)
+2011-09-12 00:45:03,700 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:11)
+2011-09-12 00:45:03,710 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:11)
+2011-09-12 00:51:25,309 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:11)
+2011-09-12 00:51:25,330 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:11)
+2011-09-12 00:53:26,717 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:11)
+2011-09-12 00:53:26,761 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:11)
+2011-09-12 00:55:40,733 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 00:55:40,742 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 00:57:08,054 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 00:57:08,064 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 00:58:13,447 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 00:58:13,456 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 01:01:06,978 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on ShowUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:10)
+2011-09-12 01:01:06,986 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on ShowUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:10)
+2011-09-12 01:02:13,232 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 01:02:13,243 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 01:07:46,260 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 01:07:46,276 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 01:10:13,920 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 01:10:13,939 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+to ShowUserPage
+|
+null
+
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:15)
+2011-09-12 01:12:03,459 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve ShowUserPage as content for CreateUserPage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:14)
+2011-09-12 01:12:03,469 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve ShowUserPage as content for CreateUserPage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at CreateUserSpec.should go to show users page when the user is saved(CreateUserSpec.groovy:14)

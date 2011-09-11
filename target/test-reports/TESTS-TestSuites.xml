@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="twu-pc" id="0" name="UserControllerSpec" package="pairingmatrix" tests="3" time="1.478" timestamp="2011-09-11T14:13:20">
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="0" name="CreateUserSpec" package="" tests="1" time="24.733" timestamp="2011-09-11T19:46:54">
       <properties />
 
-      <testcase classname="pairingmatrix.UserControllerSpec" name="should save the user when save button is clicked" time="1.431" />
+      <testcase classname="CreateUserSpec" name="should go to show users page and add the newly created user on the table when the user is saved" time="24.732" />
 
-      <testcase classname="pairingmatrix.UserControllerSpec" name="should display error message when the user name is empty and save is clicked" time="0.012" />
+      <system-out><![CDATA[--Output from should go to show users page and add the newly created user on the table when the user is saved--
+]]></system-out>
 
-      <testcase classname="pairingmatrix.UserControllerSpec" name="should display error message when the user name saved already exists " time="0.016" />
+      <system-err><![CDATA[--Output from should go to show users page and add the newly created user on the table when the user is saved--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="1" name="UserControllerSpec" package="pairingmatrix" tests="3" time="1.722" timestamp="2011-09-11T19:46:40">
+      <properties />
+
+      <testcase classname="pairingmatrix.UserControllerSpec" name="should save the user when save button is clicked" time="1.65" />
+
+      <testcase classname="pairingmatrix.UserControllerSpec" name="should display error message when the user name is empty and save is clicked" time="0.011" />
+
+      <testcase classname="pairingmatrix.UserControllerSpec" name="should display error message when the user name saved already exists " time="0.029" />
 
       <system-out><![CDATA[--Output from should save the user when save button is clicked--
 --Output from should display error message when the user name is empty and save is clicked--

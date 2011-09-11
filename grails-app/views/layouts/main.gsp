@@ -5,6 +5,8 @@
     <link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon"/>
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}"/>
     <g:layoutHead/>
+    <g:javascript library="jquery-1.6.1"/>
+    <g:javascript library="jquery-ui-1.8.14.custom.min"/>
 
 </head>
 
