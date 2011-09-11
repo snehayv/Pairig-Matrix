@@ -1,5 +1,5 @@
 /*C3*/SET SCHEMA PUBLIC
+CONNECT USER SA
 DISCONNECT
 /*C4*/SET SCHEMA PUBLIC
-create table User(userName varchar(20))
-drop table user
+CONNECT USER SA
