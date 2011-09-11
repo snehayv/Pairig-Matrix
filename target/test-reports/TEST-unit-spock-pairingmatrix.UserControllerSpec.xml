@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="twu-pc" name="pairingmatrix.UserControllerSpec" tests="3" time="1.478" timestamp="2011-09-11T14:13:20">
+  <properties />
+  <testcase classname="pairingmatrix.UserControllerSpec" name="should save the user when save button is clicked" time="1.431" />
+  <testcase classname="pairingmatrix.UserControllerSpec" name="should display error message when the user name is empty and save is clicked" time="0.012" />
+  <testcase classname="pairingmatrix.UserControllerSpec" name="should display error message when the user name saved already exists " time="0.016" />
+  <system-out><![CDATA[--Output from should save the user when save button is clicked--
+--Output from should display error message when the user name is empty and save is clicked--
+--Output from should display error message when the user name saved already exists --
+]]></system-out>
+  <system-err><![CDATA[--Output from should save the user when save button is clicked--
+--Output from should display error message when the user name is empty and save is clicked--
+--Output from should display error message when the user name saved already exists --
+]]></system-err>
+</testsuite>

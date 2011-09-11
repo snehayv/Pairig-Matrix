@@ -1,5 +1,5 @@
 html * {
-    margin: 0;
+    margin: 15px;
     /*padding: 0; SELECT NOT DISPLAYED CORRECTLY IN FIREFOX */
 }
 
@@ -14,7 +14,7 @@ html * {
 body {
     background: #fff;
     color: #333;
-    font: 11px verdana, arial, helvetica, sans-serif;
+    font: 15px verdana, arial, helvetica, sans-serif;
 }
 #grailsLogo {
 	padding:20px;
@@ -29,7 +29,7 @@ a:link, a:visited, a:hover {
 h1 {
     color: #48802c;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 20px;
     margin: .8em 0 .3em 0;
 }
 
@@ -40,7 +40,7 @@ ul {
 input, select, textarea {
     background-color: #fcfcfc;
     border: 1px solid #ccc;
-    font: 11px verdana, arial, helvetica, sans-serif;
+    font: 15px verdana, arial, helvetica, sans-serif;
     margin: 2px 0;
     padding: 2px 4px;
 }

@@ -1,11 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-1.6.1.1/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-ui-1.8.15/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/functional-test-1.2.7/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/functional-test-1.2.7">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/functional-test-1.2.7/src/groovy" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/functional-test-1.2.7/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/functional-test-1.2.7/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/functional-test-1.2.7/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/geb-0.6.0">
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/geb-0.6.0/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/geb-0.6.0/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/geb-0.6.0/web-app/plugins" />
+    </content>
     <content url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/hibernate-1.3.7">
       <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/hibernate-1.3.7/target/classes" />
       <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/hibernate-1.3.7/target/test-classes" />
       <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/hibernate-1.3.7/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-1.6.1.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-1.6.1.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-1.6.1.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-1.6.1.1/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-1.6.1.1/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-1.6.1.1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-1.6.1.1/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-ui-1.8.15">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-ui-1.8.15/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-ui-1.8.15/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-ui-1.8.15/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/jquery-ui-1.8.15/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/spock-0.5-groovy-1.7">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/spock-0.5-groovy-1.7/src/java" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/spock-0.5-groovy-1.7/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/spock-0.5-groovy-1.7/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/spock-0.5-groovy-1.7/web-app/plugins" />
     </content>
     <content url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/tomcat-1.3.7">
       <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/tomcat-1.3.7/src/groovy" isTestSource="false" />
@@ -20,9 +63,29 @@
       <library name="Grails User Library (PairingMatrix-grailsPlugins)">
         <CLASSES>
           <root url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/tomcat-1.3.7/lib" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.mortbay.jetty/servlet-api-2.5/jars/servlet-api-2.5-6.1.14.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.14.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.mortbay.jetty/jetty/jars/jetty-6.1.14.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/junit/junit-dep/jars/junit-dep-4.8.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.spockframework/spock-core/jars/spock-core-0.5-groovy-1.7.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/jars/guava-r09.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.seleniumhq.selenium/selenium-api/jars/selenium-api-2.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.json/json/jars/json-20080701.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.seleniumhq.selenium/selenium-remote-driver/jars/selenium-remote-driver-2.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/jars/selenium-firefox-driver-2.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.geb/geb-spock/jars/geb-spock-0.6.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.geb/geb-core/jars/geb-core-0.6.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.spockframework/spock-grails-support/jars/spock-grails-support-0.5-groovy-1.7.jar!/" />
+          <root url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/functional-test-1.2.7/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/functional-test-1.2.7/lib" recursive="false" />
         <jarDirectory url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/tomcat-1.3.7/lib" recursive="false" />
       </library>
     </orderEntry>
