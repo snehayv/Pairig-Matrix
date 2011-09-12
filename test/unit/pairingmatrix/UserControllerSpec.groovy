@@ -53,10 +53,8 @@ class UserControllerSpec extends ControllerSpec {
         mockDomain(User)
         def user1 = new User(userName: 'Sneha')
         def user2 = new User(userName: 'Pooja')
-        def user3 = new User(userName: 'Deepa')
         user1.save()
         user2.save()
-        user3.save()
 
         when:
         controller.params.firstUser = user1.id-1
@@ -70,18 +68,42 @@ class UserControllerSpec extends ControllerSpec {
         and:
         redirectArgs == [action: 'displayPairs']
     }
-    /*def 'should display all the users'() {
-            given:
-            def tempUser = new User(userName: "sneha")
-            mockDomain(User)
-            controller.params.userName = "sneha"
-            controller.save()
 
-            when:
-            def models = controller.show()
+    def "should give error when a user is paired with itself"() {
+        setup:
+        mockDomain(User)
+        def user1 = new User(userName: 'Sneha')
+        user1.save()
 
-            then:
-            models['allUsers'] == tempUser
-        }
-*/
+        when:
+        controller.params.firstUser = user1.id-1
+        controller.params.secondUser = user1.id-1
+        controller.addpair()
+
+        then:
+        controller.flash.error == "The first user is the same as the second user"
+        and:
+        redirectArgs == [action: 'pair']
+    }
+    def "should give error when a user pair that already exists is created again"() {
+        setup:
+        mockDomain(User)
+        def user1 = new User(userName: 'Sneha')
+        def user2 = new User(userName: 'Pooja')
+        user1.save()
+        user2.save()
+        controller.params.firstUser = user1.id-1
+        controller.params.secondUser = user2.id-1
+        controller.addpair()
+
+        when:
+        controller.params.firstUser = user1.id-1
+        controller.params.secondUser = user2.id-1
+        controller.addpair()
+
+        then:
+        controller.flash.error == "This pair already exits"
+        and:
+        redirectArgs == [action: 'pair']
+    }
 }

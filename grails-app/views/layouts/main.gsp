@@ -24,5 +24,13 @@
     <div id="main-content"><g:layoutBody/></div>
 </div>
 
+<g:if test="${flash.error}" style="position: absolute; top:130px;left:200px">
+    <div id="errorMessage"><span class="flash-message">${flash.error}</span></div>
+</g:if>
+
+<g:if test="${flash.message}" style="position: absolute; top:130px;left:200px">
+    <div id="status"><span class="flash-message">${flash.message}</span></div>
+</g:if>
+
 </body>
 </html>

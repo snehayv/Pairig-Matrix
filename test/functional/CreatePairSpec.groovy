@@ -4,7 +4,7 @@ import functionaltests.pages.CreateUserPage
 import functionaltests.pages.ShowPairPage
 
 class CreatePairSpec extends PairingMatrixGebSpec {
-    def "should go to show users page and add the newly created user on the table when the user is saved"() {
+    def "should go to show pairs page and add the newly created pair to the table when the pair is saved"() {
         given:
         createUser("Sneha")
         createUser("Pooja")
