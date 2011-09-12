@@ -17,12 +17,12 @@
     <div id="sidebar">
         <li><g:link controller="user" action="create" name="createNewUser">Create User</g:link></li>
         <li><g:link controller="user" action="show" name="ShowListOfUsers">Show Users</g:link></li>
+        <li><g:link controller="user" action="pair" name="AddPair">Add Pair</g:link></li>
+        <li><g:link controller="user" action="displayPairs" name="DisplayPairs">Show Pairing List</g:link></li>
     </div>
 
     <div id="main-content"><g:layoutBody/></div>
 </div>
-
-
 
 </body>
 </html>

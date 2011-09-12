@@ -62,7 +62,6 @@
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (PairingMatrix-grailsPlugins)">
         <CLASSES>
-          <root url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/tomcat-1.3.7/lib" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.mortbay.jetty/servlet-api-2.5/jars/servlet-api-2.5-6.1.14.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.14.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.mortbay.jetty/jetty/jars/jetty-6.1.14.jar!/" />
@@ -81,6 +80,7 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.geb/geb-spock/jars/geb-spock-0.6.0.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.geb/geb-core/jars/geb-core-0.6.0.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.spockframework/spock-grails-support/jars/spock-grails-support-0.5-groovy-1.7.jar!/" />
+          <root url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/tomcat-1.3.7/lib" />
           <root url="file://$USER_HOME$/.grails/1.3.7/projects/PairingMatrix/plugins/functional-test-1.2.7/lib" />
         </CLASSES>
         <JAVADOC />

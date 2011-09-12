@@ -17,6 +17,41 @@
 <tr valign="top">
 <th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
 </tr>
+<tr valign="top" class="Error">
+<td><a href="0_CreatePairSpec.html">CreatePairSpec</a></td><td><a name="should go to show users page and add the newly created user on the table when the user is saved"></a><a href="0_CreatePairSpec.html#should go to show users page and add the newly created user on the table when the user is saved">should go to show users page and add the newly created user on the table when the user is saved</a></td><td>Error</td><td>Element is not currently visible and so may not be interacted with Build info: version: '2.4.0', revision: '13336', time: '2011-08-17 21:21:21' System info: os.name: 'Linux', os.arch: 'i386', os.version: '2.6.38-10-generic', java.version: '1.6.0_22' Driver info: driver.version: RemoteWebDriver<pre>org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.4.0', revision: '13336', time: '2011-08-17 21:21:21'
+System info: os.name: 'Linux', os.arch: 'i386', os.version: '2.6.38-10-generic', java.version: '1.6.0_22'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:131)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:105)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:407)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:213)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:61)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:495)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure36(NonEmptyNavigator.groovy:459)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:458)
+	at geb.navigator.NonEmptyNavigator.propertyMissing(NonEmptyNavigator.groovy:377)
+	at geb.navigator.Navigator.setProperty(Navigator.groovy)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:139)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at CreatePairSpec.should go to show users page and add the newly created user on the table when the user is saved(CreatePairSpec.groovy:14)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.4.0', revision: '13336', time: '2011-08-17 21:21:21'
+System info: os.name: 'Linux', os.arch: 'i386', os.version: '2.6.38-10-generic', java.version: '1.6.0_22'
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(resource://fxdriver/modules/atoms.js:9373)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///tmp/anonymous780358305334497474webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:256)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///tmp/anonymous780358305334497474webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:305)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///tmp/anonymous780358305334497474webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:320)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///tmp/anonymous780358305334497474webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:197)
+</pre>
+</td><td>2.072</td>
+</tr>
 </table>
 </body>
 </html>

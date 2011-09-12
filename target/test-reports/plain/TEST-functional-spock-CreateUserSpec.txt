@@ -1,5 +1,5 @@
 Testsuite: CreateUserSpec
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 24.733 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 8.266 sec
 ------------- Standard Output ---------------
 --Output from should go to show users page and add the newly created user on the table when the user is saved--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 24.733 sec
 --Output from should go to show users page and add the newly created user on the table when the user is saved--
 ------------- ---------------- ---------------
 
-Testcase: should go to show users page and add the newly created user on the table when the user is saved took 24.732 sec
+Testcase: should go to show users page and add the newly created user on the table when the user is saved took 8.246 sec

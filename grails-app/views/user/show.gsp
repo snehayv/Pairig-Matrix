@@ -3,8 +3,6 @@
 <head>
     <title>List of Users</title>
     <meta name="layout" content="main">
-    <g:javascript library="jquery-1.6.1"/>
-    <g:javascript library="jquery-ui-1.8.14.custom.min"/>
 
 </head>
 

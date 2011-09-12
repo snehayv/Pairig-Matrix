@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="twu-pc" name="CreateUserSpec" tests="1" time="24.733" timestamp="2011-09-11T19:46:54">
+<testsuite errors="0" failures="0" hostname="twu-pc" name="CreateUserSpec" tests="1" time="8.266" timestamp="2011-09-12T08:50:07">
   <properties />
-  <testcase classname="CreateUserSpec" name="should go to show users page and add the newly created user on the table when the user is saved" time="24.732" />
+  <testcase classname="CreateUserSpec" name="should go to show users page and add the newly created user on the table when the user is saved" time="8.246" />
   <system-out><![CDATA[--Output from should go to show users page and add the newly created user on the table when the user is saved--
 ]]></system-out>
   <system-err><![CDATA[--Output from should go to show users page and add the newly created user on the table when the user is saved--

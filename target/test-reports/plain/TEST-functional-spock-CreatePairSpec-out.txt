@@ -1,0 +1,1 @@
+--Output from should go to show users page and add the newly created user on the table when the user is saved--
