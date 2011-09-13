@@ -1,45 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="twu-pc" name="CreatePairSpec" tests="1" time="2.073" timestamp="2011-09-12T08:50:15">
+<testsuite errors="0" failures="0" hostname="twu-pc" name="CreatePairSpec" tests="1" time="2.516" timestamp="2011-09-12T11:12:57">
   <properties />
-  <testcase classname="CreatePairSpec" name="should go to show users page and add the newly created user on the table when the user is saved" time="2.072">
-    <error message="Element is not currently visible and so may not be interacted with
-Build info: version: &apos;2.4.0&apos;, revision: &apos;13336&apos;, time: &apos;2011-08-17 21:21:21&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;i386&apos;, os.version: &apos;2.6.38-10-generic&apos;, java.version: &apos;1.6.0_22&apos;
-Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
-Build info: version: &apos;2.4.0&apos;, revision: &apos;13336&apos;, time: &apos;2011-08-17 21:21:21&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;i386&apos;, os.version: &apos;2.6.38-10-generic&apos;, java.version: &apos;1.6.0_22&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:131)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:105)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:407)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:213)
-	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:61)
-	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:495)
-	at geb.navigator.NonEmptyNavigator.setInputValues_closure36(NonEmptyNavigator.groovy:459)
-	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:458)
-	at geb.navigator.NonEmptyNavigator.propertyMissing(NonEmptyNavigator.groovy:377)
-	at geb.navigator.Navigator.setProperty(Navigator.groovy)
-	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:139)
-	at geb.Page.propertyMissing(Page.groovy)
-	at geb.Page.setProperty(Page.groovy)
-	at geb.Browser.propertyMissing(Browser.groovy:181)
-	at geb.Browser.setProperty(Browser.groovy)
-	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
-	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
-	at CreatePairSpec.should go to show users page and add the newly created user on the table when the user is saved(CreatePairSpec.groovy:14)
-Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
-Build info: version: &apos;2.4.0&apos;, revision: &apos;13336&apos;, time: &apos;2011-08-17 21:21:21&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;i386&apos;, os.version: &apos;2.6.38-10-generic&apos;, java.version: &apos;1.6.0_22&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(resource://fxdriver/modules/atoms.js:9373)
-	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///tmp/anonymous780358305334497474webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:256)
-	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///tmp/anonymous780358305334497474webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:305)
-	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///tmp/anonymous780358305334497474webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:320)
-	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///tmp/anonymous780358305334497474webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:197)
-</error>
-  </testcase>
-  <system-out><![CDATA[--Output from should go to show users page and add the newly created user on the table when the user is saved--
+  <testcase classname="CreatePairSpec" name="should go to show pairs page and add the newly created pair to the table when the pair is saved" time="2.515" />
+  <system-out><![CDATA[--Output from should go to show pairs page and add the newly created pair to the table when the pair is saved--
+first user nameSneha
+first user pairs[Pooja]
+second user namePooja
+second user pairs[Sneha]
 ]]></system-out>
-  <system-err><![CDATA[--Output from should go to show users page and add the newly created user on the table when the user is saved--
+  <system-err><![CDATA[--Output from should go to show pairs page and add the newly created pair to the table when the pair is saved--
 ]]></system-err>
 </testsuite>

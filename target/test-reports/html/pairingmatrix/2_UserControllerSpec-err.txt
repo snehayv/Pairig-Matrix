@@ -1,0 +1,7 @@
+--Output from should save the user when save button is clicked--
+--Output from should display error message when the user name is empty and save is clicked--
+--Output from should display error message when the user name saved already exists --
+--Output from should create the pair when two users are paired together--
+--Output from should give error when a user is paired with itself--
+--Output from should give error when a user pair that already exists is created again--
+

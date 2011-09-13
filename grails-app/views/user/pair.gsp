@@ -32,7 +32,7 @@
               onchange="getUserId1()"/>
 
     <br>
-    <g:hiddenField name="firstUser" id="pair1" value=""/>
+    <g:hiddenField name="firstUser" id="pair1" value="0"/>
 
     <label>2nd User</label>
     <g:select id="second-user"
@@ -42,7 +42,7 @@
               onchange="getUserId2()"/>
 
     <br>
-    <g:hiddenField name="secondUser" id="pair2" value=""/>
+    <g:hiddenField name="secondUser" id="pair2" value="0"/>
 
     <button type="submit" id="add-pair">Add Pair</button>
 </g:form>

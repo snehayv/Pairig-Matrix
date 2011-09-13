@@ -1,2 +1,6 @@
---Output from should go to show users page and add the newly created user on the table when the user is saved--
+--Output from should go to show pairs page and add the newly created pair to the table when the pair is saved--
+first user nameSneha
+first user pairs[Pooja]
+second user namePooja
+second user pairs[Sneha]
 

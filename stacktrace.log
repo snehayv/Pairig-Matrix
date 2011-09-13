@@ -862,3 +862,121 @@ Driver info: driver.version: unknown
 	at <anonymous class>.<anonymous method>(file:///tmp/anonymous858058348781750808webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:305)
 	at <anonymous class>.<anonymous method>(file:///tmp/anonymous858058348781750808webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:320)
 	at <anonymous class>.<anonymous method>(file:///tmp/anonymous858058348781750808webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:197)
+2011-09-12 16:27:13,602 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+at(ShowPairPage)
+|
+false
+
+	at CreatePairSpec.should go to show pairs page and add the newly created pair to the table when the pair is saved(CreatePairSpec.groovy:19)
+2011-09-12 16:27:13,610 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+at(ShowPairPage)
+|
+false
+
+	at CreatePairSpec.should go to show pairs page and add the newly created pair to the table when the pair is saved(CreatePairSpec.groovy:19)
+2011-09-12 16:29:26,770 [main] ERROR StackTrace  - Sanitizing stacktrace:
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.4.0', revision: '13336', time: '2011-08-17 21:21:21'
+System info: os.name: 'Linux', os.arch: 'i386', os.version: '2.6.38-10-generic', java.version: '1.6.0_22'
+Driver info: driver.version: unknown
+	at <anonymous class>.<anonymous method>(resource://fxdriver/modules/atoms.js:9373)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:256)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:305)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:320)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:197)
+2011-09-12 16:29:26,773 [main] ERROR StackTrace  - Sanitizing stacktrace:
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.4.0', revision: '13336', time: '2011-08-17 21:21:21'
+System info: os.name: 'Linux', os.arch: 'i386', os.version: '2.6.38-10-generic', java.version: '1.6.0_22'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:131)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:105)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:407)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:213)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:61)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:495)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure36(NonEmptyNavigator.groovy:459)
+	at groovy.lang.Closure.call(Closure.java:282)
+	at groovy.lang.Closure.call(Closure.java:295)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:458)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:287)
+	at functionaltests.pages.CreatePairPage._clinit__closure2_closure3(CreatePairPage.groovy:9)
+	at functionaltests.pages.CreatePairPage._clinit__closure2_closure3(CreatePairPage.groovy)
+	at groovy.lang.Closure.call(Closure.java:282)
+	at groovy.lang.Closure.call(Closure.java:277)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:134)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:103)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at groovy.lang.Closure.call(Closure.java:282)
+	at groovy.lang.Closure.call(Closure.java:277)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:119)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:98)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:43)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:127)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at CreatePairSpec.should go to show pairs page and add the newly created pair to the table when the pair is saved(CreatePairSpec.groovy:14)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.4.0', revision: '13336', time: '2011-08-17 21:21:21'
+System info: os.name: 'Linux', os.arch: 'i386', os.version: '2.6.38-10-generic', java.version: '1.6.0_22'
+Driver info: driver.version: unknown
+	at <anonymous class>.<anonymous method>(resource://fxdriver/modules/atoms.js:9373)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:256)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:305)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:320)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:197)
+2011-09-12 16:29:26,779 [main] ERROR StackTrace  - Sanitizing stacktrace:
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.4.0', revision: '13336', time: '2011-08-17 21:21:21'
+System info: os.name: 'Linux', os.arch: 'i386', os.version: '2.6.38-10-generic', java.version: '1.6.0_22'
+Driver info: driver.version: unknown
+	at <anonymous class>.<anonymous method>(resource://fxdriver/modules/atoms.js:9373)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:256)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:305)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:320)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:197)
+2011-09-12 16:29:26,779 [main] ERROR StackTrace  - Sanitizing stacktrace:
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.4.0', revision: '13336', time: '2011-08-17 21:21:21'
+System info: os.name: 'Linux', os.arch: 'i386', os.version: '2.6.38-10-generic', java.version: '1.6.0_22'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:131)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:105)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:407)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:213)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:61)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:495)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure36(NonEmptyNavigator.groovy:459)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:458)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:287)
+	at functionaltests.pages.CreatePairPage._clinit__closure2_closure3(CreatePairPage.groovy:9)
+	at functionaltests.pages.CreatePairPage._clinit__closure2_closure3(CreatePairPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:134)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:103)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:119)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:98)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:43)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:127)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at CreatePairSpec.should go to show pairs page and add the newly created pair to the table when the pair is saved(CreatePairSpec.groovy:14)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.4.0', revision: '13336', time: '2011-08-17 21:21:21'
+System info: os.name: 'Linux', os.arch: 'i386', os.version: '2.6.38-10-generic', java.version: '1.6.0_22'
+Driver info: driver.version: unknown
+	at <anonymous class>.<anonymous method>(resource://fxdriver/modules/atoms.js:9373)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:256)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:305)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:320)
+	at <anonymous class>.<anonymous method>(file:///tmp/anonymous7105599905425944208webdriver-profile/extensions/fxdriver@googlecode.com/components/nsCommandProcessor.js:197)

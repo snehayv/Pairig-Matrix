@@ -63,16 +63,7 @@
       <file leaf-file-name="ShowPairPage.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/functional/functionaltests/pages/ShowPairPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="displayPairs.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/user/displayPairs.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="23" selection-start="75" selection-end="87" vertical-scroll-proportion="-0.9574468">
+            <state line="8" column="5" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,7 +72,7 @@
       <file leaf-file-name="CreatePairSpec.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/functional/CreatePairSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="27" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+            <state line="26" column="24" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,25 +81,25 @@
       <file leaf-file-name="CreatePairPage.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/functional/functionaltests/pages/CreatePairPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="31" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CreateUserSpec.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/functional/CreateUserSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="51" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/pairingmatrix/UserController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserControllerSpec.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/pairingmatrix/UserControllerSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="8" selection-start="1445" selection-end="1445" vertical-scroll-proportion="-8.478261">
+            <state line="60" column="1" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,16 +108,25 @@
       <file leaf-file-name="pair.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/user/pair.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="18" selection-start="1185" selection-end="1185" vertical-scroll-proportion="-8.25532">
+            <state line="31" column="26" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <file leaf-file-name="UserControllerSpec.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/pairingmatrix/UserControllerSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="78" selection-start="1201" selection-end="1201" vertical-scroll-proportion="-18.75">
+            <state line="71" column="5" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="41" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,9 +135,21 @@
       <file leaf-file-name="create.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="57" selection-start="295" selection-end="343" vertical-scroll-proportion="-3.8297873">
+            <state line="12" column="57" selection-start="295" selection-end="343" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/pairingmatrix/User.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="4" selection-start="190" selection-end="190" vertical-scroll-proportion="0.28526148">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -163,14 +175,14 @@
         <option value="$PROJECT_DIR$/grails-app/domain/pairingmatrix/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/user/displayPairs.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/user/show.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/test/unit/pairingmatrix/UserControllerSpec.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/pairingmatrix/UserController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/user/pair.gsp" />
         <option value="$PROJECT_DIR$/test/functional/functionaltests/pages/CreatePairPage.groovy" />
         <option value="$PROJECT_DIR$/test/functional/functionaltests/pages/ShowPairPage.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/test/functional/CreatePairSpec.groovy" />
-        <option value="$PROJECT_DIR$/test/unit/pairingmatrix/UserControllerSpec.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/pairingmatrix/UserController.groovy" />
       </list>
     </option>
   </component>
@@ -204,6 +216,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -586,8 +600,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -605,8 +617,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -681,6 +693,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -703,16 +725,6 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy Script">
@@ -776,7 +788,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="24" width="1440" height="852" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -785,7 +797,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26545453" sideWeight="0.67128986" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26763636" sideWeight="0.67128986" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -846,11 +858,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="460" selection-end="460" vertical-scroll-proportion="0.34285715" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/javascript/AddUser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="6" selection-start="812" selection-end="812" vertical-scroll-proportion="0.6857143" />
@@ -859,14 +866,6 @@
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/pairingmatrix/User.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="-4.431818" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/show.gsp">
@@ -879,70 +878,75 @@
         <state line="8" column="44" selection-start="207" selection-end="255" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/CreateUserSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="51" selection-start="233" selection-end="233" vertical-scroll-proportion="0.10822511" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="78" selection-start="1201" selection-end="1201" vertical-scroll-proportion="-18.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="57" selection-start="295" selection-end="343" vertical-scroll-proportion="-3.8297873">
-          <folding />
-        </state>
+        <state line="30" column="78" selection-start="1201" selection-end="1201" vertical-scroll-proportion="-18.75" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/displayPairs.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="75" selection-end="87" vertical-scroll-proportion="-0.9574468">
-          <folding />
-        </state>
+        <state line="10" column="30" selection-start="205" selection-end="217" vertical-scroll-proportion="-3.1914895" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/functionaltests/pages/ShowPairPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/functional/CreatePairSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+        <state line="26" column="24" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/functionaltests/pages/CreatePairPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/CreateUserSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="51" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/pairingmatrix/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="1" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/pair.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="18" selection-start="1185" selection-end="1185" vertical-scroll-proportion="-8.25532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/functionaltests/pages/ShowPairPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/functionaltests/pages/CreatePairPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+        <state line="31" column="26" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/pairingmatrix/UserControllerSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="8" selection-start="1445" selection-end="1445" vertical-scroll-proportion="-8.478261">
+        <state line="71" column="5" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/pairingmatrix/UserController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="16" column="41" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="57" selection-start="295" selection-end="343" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/pairingmatrix/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="190" selection-end="190" vertical-scroll-proportion="0.28526148" />
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>

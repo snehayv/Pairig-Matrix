@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="twu-pc" id="0" name="UserControllerSpec" package="pairingmatrix" tests="6" time="2.248" timestamp="2011-09-12T10:40:13">
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="0" name="CreatePairSpec" package="" tests="1" time="2.516" timestamp="2011-09-12T11:12:57">
       <properties />
 
-      <testcase classname="pairingmatrix.UserControllerSpec" name="should save the user when save button is clicked" time="2.094" />
+      <testcase classname="CreatePairSpec" name="should go to show pairs page and add the newly created pair to the table when the pair is saved" time="2.515" />
 
-      <testcase classname="pairingmatrix.UserControllerSpec" name="should display error message when the user name is empty and save is clicked" time="0.017" />
+      <system-out><![CDATA[--Output from should go to show pairs page and add the newly created pair to the table when the pair is saved--
+first user nameSneha
+first user pairs[Pooja]
+second user namePooja
+second user pairs[Sneha]
+]]></system-out>
 
-      <testcase classname="pairingmatrix.UserControllerSpec" name="should display error message when the user name saved already exists " time="0.033" />
+      <system-err><![CDATA[--Output from should go to show pairs page and add the newly created pair to the table when the pair is saved--
+]]></system-err>
 
-      <testcase classname="pairingmatrix.UserControllerSpec" name="should create the pair when two users are paired together" time="0.033" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="1" name="CreateUserSpec" package="" tests="1" time="69.09" timestamp="2011-09-12T11:11:48">
+      <properties />
 
-      <testcase classname="pairingmatrix.UserControllerSpec" name="should give error when a user is paired with itself" time="0.014" />
+      <testcase classname="CreateUserSpec" name="should go to show users page and add the newly created user on the table when the user is saved" time="69.082" />
 
-      <testcase classname="pairingmatrix.UserControllerSpec" name="should give error when a user pair that already exists is created again" time="0.02" />
+      <system-out><![CDATA[--Output from should go to show users page and add the newly created user on the table when the user is saved--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should go to show users page and add the newly created user on the table when the user is saved--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="2" name="UserControllerSpec" package="pairingmatrix" tests="6" time="2.427" timestamp="2011-09-12T11:11:33">
+      <properties />
+
+      <testcase classname="pairingmatrix.UserControllerSpec" name="should save the user when save button is clicked" time="2.196" />
+
+      <testcase classname="pairingmatrix.UserControllerSpec" name="should display error message when the user name is empty and save is clicked" time="0.021" />
+
+      <testcase classname="pairingmatrix.UserControllerSpec" name="should display error message when the user name saved already exists " time="0.038" />
+
+      <testcase classname="pairingmatrix.UserControllerSpec" name="should create the pair when two users are paired together" time="0.066" />
+
+      <testcase classname="pairingmatrix.UserControllerSpec" name="should give error when a user is paired with itself" time="0.037" />
+
+      <testcase classname="pairingmatrix.UserControllerSpec" name="should give error when a user pair that already exists is created again" time="0.039" />
 
       <system-out><![CDATA[--Output from should save the user when save button is clicked--
 --Output from should display error message when the user name is empty and save is clicked--

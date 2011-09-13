@@ -1,5 +1,5 @@
 Testsuite: pairingmatrix.UserControllerSpec
-Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 2.248 sec
+Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 2.427 sec
 ------------- Standard Output ---------------
 --Output from should save the user when save button is clicked--
 --Output from should display error message when the user name is empty and save is clicked--
@@ -29,9 +29,9 @@ second user pairs[Sneha]
 --Output from should give error when a user pair that already exists is created again--
 ------------- ---------------- ---------------
 
-Testcase: should save the user when save button is clicked took 2.094 sec
-Testcase: should display error message when the user name is empty and save is clicked took 0.017 sec
-Testcase: should display error message when the user name saved already exists  took 0.033 sec
-Testcase: should create the pair when two users are paired together took 0.033 sec
-Testcase: should give error when a user is paired with itself took 0.014 sec
-Testcase: should give error when a user pair that already exists is created again took 0.02 sec
+Testcase: should save the user when save button is clicked took 2.201 sec
+Testcase: should display error message when the user name is empty and save is clicked took 0.022 sec
+Testcase: should display error message when the user name saved already exists  took 0.038 sec
+Testcase: should create the pair when two users are paired together took 0.066 sec
+Testcase: should give error when a user is paired with itself took 0.037 sec
+Testcase: should give error when a user pair that already exists is created again took 0.039 sec

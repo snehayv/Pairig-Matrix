@@ -11,12 +11,14 @@ class CreatePairSpec extends PairingMatrixGebSpec {
 
         when:
         to CreatePairPage
-        firstUser = "Sneha"
-        secondUser= "Pooja"
+        firstUser.value("Sneha")
+        secondUser.value("Pooja")
         addPair.click()
 
         then:
         assert at(ShowPairPage)
+        and:
+        pairList.size() == 2
     }
 
     private def createUser(title) {

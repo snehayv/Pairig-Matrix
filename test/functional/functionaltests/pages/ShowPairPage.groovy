@@ -5,6 +5,6 @@ class ShowPairPage extends Page{
     static at = { $("title").text() == "Pairing List" }
     static url = "PairingMatrix/user/displayPair"
     static content = {
-
+        pairList {$("#pairing-list tbody tr")}
     }
 }
